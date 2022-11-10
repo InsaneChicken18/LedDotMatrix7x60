@@ -38,19 +38,19 @@ void loop()
 
   switch(num)
   {
-    case 1: disp.Display(C1, A, B, C, D, E, F, G, H, I, J, K); break;
+    case 1: disp.Display(n1, A, B, C, D, E, F, G, H, I, J, K); break;
 
-    case 2: disp.Display(C2, L, M, N, O, P, Q, R, S, T, U, V); break;
+    case 2: disp.Display(n2, L, M, N, O, P, Q, R, S, T, U, V); break;
 
-    case 3: disp.Display(C3,W,X,Y,Z,AE,OE,UE,mt,A,O,U); break;
+    case 3: disp.Display(n3,W,X,Y,Z,AE,OE,UE,mt,A,O,U); break;
 
-    case 4: disp.Display(C4,a,b,c,d,e,f,g,h,i,j,k); break;
+    case 4: disp.Display(n4,a,b,c,d,e,f,g,h,i,j,k); break;
 
-    case 5: disp.Display(C5,l,m,n,o,p,q,r,s,t,u,v); break;
+    case 5: disp.Display(n5,l,m,n,o,p,q,r,s,t,u,v); break;
 
-    case 6: disp.Display(C6,w,x,y,z,mt,T,E,S,T,mt,mt); break;
+    case 6: disp.Display(n6,w,x,y,z,mt,T,E,S,T,mt,mt); break;
 
-    case 7: disp.Display(C7,mt,mt,H,A,L,L,O,mt,mt,mt,mt); break;
+    case 7: disp.Display(n7,mt,mt,H,A,L,L,O,mt,mt,mt,mt); break;
 
     case 8:  disp.Clear(); break; 
 
