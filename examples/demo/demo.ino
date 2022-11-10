@@ -9,7 +9,9 @@
 #include <Wire.h>
 //-----------------------------
 //DIN-bn, CS-gn, CLK-or
-LedDotMatrix7x60 disp(D5, D6, D7);
+LedDotMatrix7x60 disp(
+  
+);
 long times;
 int num = 0;
 int showTime = 1500;
